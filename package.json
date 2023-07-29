@@ -1,0 +1,40 @@
+{
+    "name": "fluid-scan",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "react-native-app:start": "yarn workspace @fluid-scan/react-native-app start",
+        "react-native-app:android": "yarn workspace @fluid-scan/react-native-app android",
+        "react-native-app:ios": "yarn workspace @fluid-scan/react-native-app ios",
+        "react-native-app:web": "yarn workspace @fluid-scan/react-native-app web",
+        "react-native-app:eject": "yarn workspace @fluid-scan/react-native-app eject",
+        "react-native-app:test": "yarn workspace @fluid-scan/react-native-app test",
+        "hardhat:test": "yarn workspace @fluid-scan/hardhat test",
+        "hardhat:test-local": "yarn workspace @fluid-scan/hardhat test-local",
+        "hardhat:create-account": "yarn workspace @fluid-scan/hardhat create-account",
+        "hardhat:accounts": "yarn workspace @fluid-scan/hardhat accounts",
+        "hardhat:devchain": "yarn workspace @fluid-scan/hardhat devchain",
+        "hardhat:deploy": "yarn workspace @fluid-scan/hardhat deploy",
+        "hardhat:deploy-reset-watch": "yarn workspace @fluid-scan/hardhat deploy-reset-watch",
+        "hardhat:watch": "yarn workspace @fluid-scan/hardhat watch",
+        "hardhat:fork-mainnet": "yarn workspace @fluid-scan/hardhat fork-mainnet"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ]
+}
